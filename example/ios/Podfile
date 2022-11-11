@@ -12,7 +12,7 @@ target 'example' do
     :hermes_enabled => false
   )
 
-  pod 'react-native-simple-openvpn', :path => '../node_modules/react-native-simple-openvpn'
+#  pod 'react-native-simple-openvpn', :path => '../node_modules/react-native-simple-openvpn'
 
   target 'exampleTests' do
     inherit! :complete
